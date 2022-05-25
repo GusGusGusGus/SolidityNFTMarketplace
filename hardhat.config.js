@@ -21,5 +21,12 @@ module.exports = {
         runs: 200
       }
     }
-  }
+  },
+
+  paths: {
+    sources: "./contracts",
+    tests: "./test",
+    cache: "./cache",
+    artifacts: "./artifacts"
+  },
 }
