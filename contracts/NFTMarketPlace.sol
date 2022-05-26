@@ -33,7 +33,7 @@ contract NFTMarketplace is ERC721URIStorage {
       bool sold
     );
 
-    constructor() ERC721("Linha Tokens", "LINHA$") {
+    constructor() ERC721("IRONY Tokens", "IRONY") {
       owner = payable(msg.sender);
     }
 
